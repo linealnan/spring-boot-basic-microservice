@@ -1,4 +1,4 @@
-create table exchange_value(
+create table if not exists exchange_value(
    id INT NOT NULL, 
    currency_from VARCHAR(50) NOT NULL, 
    currency_to VARCHAR(20) NOT NULL, 
