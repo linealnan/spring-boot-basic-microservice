@@ -1,9 +1,9 @@
 package com.in28minutes.springboot.microservice.example.forex;
-import java.math.BigDecimal;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.math.BigDecimal;
 
 @Entity
 public class ExchangeValue {
